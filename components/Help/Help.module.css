@@ -1,0 +1,44 @@
+.help {
+  position: relative;
+}
+
+.help:hover > .helpText {
+  opacity: 1;
+  z-index: 1;
+}
+
+.helpButton {
+  border: none;
+  border-radius: 50%;
+  background: var(--white);
+  box-shadow: 2px 4px 10px 0px #000D5433;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+}
+
+.helpText {
+  position: absolute;
+  left: -10px;
+  bottom: 30px;
+  background: var(--white);
+  border-radius: 4px;
+  font-size: 14px;
+  width: 420px;
+  padding: 15px 20px;
+  box-shadow: var(--shadow);
+  z-index: -1;
+  opacity: 0;
+  transition: var(--animation);
+}
+
+.helpText::before {
+  content: "";
+  background: var(--white);
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  height: 15px;
+  width: 15px;
+  border-radius: 10%;
+}

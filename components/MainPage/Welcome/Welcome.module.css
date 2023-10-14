@@ -1,0 +1,37 @@
+.welcome {
+  background: var(--blue);
+  color: var(--white);
+  height: 500px;
+  position: relative;
+}
+
+.welcomeBackgroundText {
+  position: absolute;
+  font-size: 200px;
+  top: 50%;
+  left: 50%;
+  opacity: .12;
+  font-weight: 700;
+  user-select: none;
+  transform: translate(-50%, -50%);
+}
+
+.welcomeWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcomeContainer {
+  padding: 100px 0;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.welcomeTitle {
+  line-height: 50px;
+}
+
+.welcomeContainer > p {
+  margin: 20px 0 40px 0;
+}

@@ -3,18 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-family:
-		-apple-system,
-		BlinkMacSystemFont,
-		Segoe UI,
-		Roboto,
-		Oxygen,
-		Ubuntu,
-		Cantarell,
-		Fira Sans,
-		Droid Sans,
-		Helvetica Neue,
-		sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -28,6 +17,47 @@ a {
 }
 
 :root {
-	--black: #103232;
-	--font: Ubuntu, sans-serif;
+	--animation: .2s;
+	--font-weight: 400;
+	--font-weigth-bold: 700;
+	--white: #FFFFFF;
+	--black: #444B58;
+	--black-hover: #31343C;
+	--primary: #F14F4F;
+	--primary-hover: #CC4949;	
+	--primary-active: #8C2828;
+	--blue: #484283;
+	--shadow: 4px 8px 20px 0px rgba(0, 13, 84, 0.2);
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 20
+}
+
+button {
+	cursor: pointer;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.price {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
 }

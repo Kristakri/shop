@@ -1,0 +1,51 @@
+.header {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.navigation {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 40px;
+  font-size: 14px;
+}
+
+.menuLink {
+  position: relative;
+}
+
+.menuLink::after {
+  content: "";
+  background: var(--white);
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  transform: scaleX(0);
+  transition: .3s;
+}
+
+.menuLink:hover::after {
+  transform: scaleX(1);
+}
+
+.basket {
+  border: none;
+  background: none;
+  color: var(--white);
+}
+
+.basket > span {
+  line-height: 14px;
+}
