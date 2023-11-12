@@ -4,6 +4,8 @@ body {
 	padding: 0;
 
 	font-family: 'Roboto Slab', serif;
+	/* font-family:Arial, Helvetica, sans-serif; */
+	color: var(--black);
 }
 
 a {
@@ -27,6 +29,9 @@ a {
 	--primary-hover: #CC4949;	
 	--primary-active: #8C2828;
 	--blue: #484283;
+	--gray: #B2B5BB;
+	--filter-dark:#DBBBA9;
+	--sec-bg: #FFF4EE;
 	--shadow: 4px 8px 20px 0px rgba(0, 13, 84, 0.2);
 }
 
@@ -36,6 +41,18 @@ a {
   'wght' 200,
   'GRAD' 0,
   'opsz' 20
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+img {
+	max-width: 100%;
 }
 
 button {

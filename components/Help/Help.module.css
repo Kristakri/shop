@@ -1,5 +1,7 @@
 .help {
   position: relative;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .help:hover > .helpText {
@@ -27,6 +29,8 @@
   width: 420px;
   padding: 15px 20px;
   box-shadow: var(--shadow);
+  color: var(--black);
+  text-transform: none;
   z-index: -1;
   opacity: 0;
   transition: var(--animation);

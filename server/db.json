@@ -1,0 +1,225 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "question": "Где я могу забрать свой заказ?",
+      "answer": "Вы можете оформить заказ на свой домашний адрес, в офис или в пункт самовывоза. Самое главное, чтобы заказ у курьера принимали лично Вы. Забрать заказ из интернет-магазина в магазине пока нельзя, но там его можно оформить."
+    },
+    {
+      "id": 2,
+      "question": "Отличаются ли цены и акции в Интернет-магазине и розничных магазинах?",
+      "answer": "Цены и акции в интернет-магазине и в розничных магазинах одинаковые. Цены и специальные акции в стоках и аутлетах, а также франчайзинговых магазинах сети могут незначительно отличаться."
+    },
+    {
+      "id": 3,
+      "question": "Как вернуть товар если он мне не подошел?",
+      "answer": "При покупке в розничных магазинах сети возврат товара надлежащего качества возможен в течение 14 дней, если товар не был в употреблении, сохранены его товарный вид, потребительские свойства, оригинальная упаковка, а также документ, подтверждающий факт и условия покупки указанного товара. Если вы возвращаете покупку (надлежащего или ненадлежащего качества) в магазин SneakMax, то деньги будут возвращены"
+    }
+  ],
+  "our-team": [
+    {
+      "id": 1,
+      "name": "Алексей Меншиков",
+      "post": "Администратор",
+      "photo": "./our-team/team-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Майя Иванова",
+      "post": "Консультант",
+      "photo": "./our-team/team-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Александр Колотос",
+      "post": "Руководитель отдела продаж",
+      "photo": "./our-team/team-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Виктория Петтерсон",
+      "post": "Оператор",
+      "photo": "./our-team/team-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Тимур Матсараев",
+      "post": "Консультант",
+      "photo": "./our-team/team-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Маргарита Семенчинко",
+      "post": "Оператор",
+      "photo": "./our-team/team-6.jpg"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Повседневные",
+      "photo": "./types/photo-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Беговые",
+      "photo": "./types/photo-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Кеды",
+      "photo": "./types/photo-3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Треккинговые",
+      "photo": "./types/photo-4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Дизайнерские",
+      "photo": "./types/photo-5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Горные",
+      "photo": "./types/photo-6.jpg"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Кроссовки Nike SB Dunk Low Purple Pigeon",
+      "type": "Повседневные",
+      "price": 2500,
+      "size": [37, 38, 39, 40, 41, 43],
+      "photos": [
+        "./catalog/product-1/photo-1.jpg",
+        "./catalog/product-1/photo-2.jpg",
+        "./catalog/product-1/photo-3.jpg",
+        "./catalog/product-1/photo-4.jpg",
+        "./catalog/product-1/photo-5.jpg"
+      ],
+      "gender": "male",
+      "color": "серый",
+      "description": "Кроссовки Nike SB Dunk Low Purple Pigeon ВНИМАНИЕ: МАЛОМЕРЯТ НА 1 РАЗМЕР. Спортивные кроссовки Nike Air Force и Nike SB Dunk Low Purple Pigeon - универсальная городская модель обуви, которая подойдет как мужчинам, так и женщинам.",
+      "composition": ["замш", "термоэластопласт", "текстиль"],
+      "country": "Вьетнам"
+    },
+    {
+      "id": 2,
+      "name": "Кроссовки для бега Nike Air Zoom Pegasus 39",
+      "type": "Беговые",
+      "price": 3000,
+      "size": [35, 36, 37, 38, 39, 41, 42, 43],
+      "photos": [
+        "./catalog/product-2/photo-1.jpg",
+        "./catalog/product-2/photo-2.jpg",
+        "./catalog/product-2/photo-3.jpg",
+        "./catalog/product-2/photo-4.jpg"
+      ],
+      "gender": "female",
+      "color": "белый",
+      "description": "Кроссовки Nike Air Zoom Pegasus 39 предназначены для женщин и мужчин, которые занимаются спортом и фитнесом. Они отлично подходят для легкой атлетики, бега, волейбола и других видов спорта. Кроссовки женские имеют современный дизайн и высокое качество. Стелька, изготовленная из высококачественных материалов, защищает стопу и придает упругость во время приземления. ",
+      "composition": ["текстиль"],
+      "country": "Вьетнам"
+    },
+    {
+      "id": 3,
+      "name": "Converse / кеды",
+      "type": "Кеды",
+      "price": 900,
+      "size": [36, 37, 38, 39, 40, 41],
+      "photos": [
+        "./catalog/product-3/photo-1.jpg",
+        "./catalog/product-3/photo-2.jpg",
+        "./catalog/product-3/photo-3.jpg",
+        "./catalog/product-3/photo-4.jpg"
+      ],
+      "gender": "female",
+      "color": "черный",
+      "description": "КАЧЕСТВЕННАЯ тканевая модель высоких кед является универсальной. Подойдет для школы, занятий физкультурой и работы. Оригинальные прогулочные кеды привлекут внимание. Прорезиненный носок кроссовок и толстая подошва защищает ногу от промокания. Сами кеды и стелька внутри матерчатые, из натуральных материалов.",
+      "composition": ["резина"],
+      "country": ""
+    },
+    {
+      "id": 4,
+      "name": "Кроссовки спортивные треккинговые Columbia",
+      "type": "Треккинговые",
+      "price": 2400,
+      "size": [42, 43],
+      "photos": [
+        "./catalog/product-4/photo-1.jpg",
+        "./catalog/product-4/photo-2.jpg",
+        "./catalog/product-4/photo-3.jpg",
+        "./catalog/product-4/photo-4.jpg",
+        "./catalog/product-4/photo-5.jpg"
+      ],
+      "gender": "male",
+      "color": "серый",
+      "description": "Утепленные ботинки зимние выдерживают низкие температуры. Зимние ботинки отличное решение на зиму. Удобные мужские кроссовки высокого качества выполнены из технологичных износоустойчивых материалов. Подошва обладает износостойкостью, повышенной амортизацией и хорошим сцеплением с поверхностью. Удобная колодка адаптирована под мужскую стопу и рассчитана на длительную носку. Данная модель может маломерить на размер.",
+      "composition": ["текстиль"],
+      "country": "Вьетнам"
+    },
+    {
+      "id": 5,
+      "name": "UNITED NUDE",
+      "type": "Дизайнерские",
+      "price": 2400,
+      "size": [36, 37, 38, 39, 40, 41],
+      "photos": [
+        "./catalog/product-5/photo-1.jpg",
+        "./catalog/product-5/photo-2.jpg",
+        "./catalog/product-5/photo-3.jpg",
+        "./catalog/product-5/photo-4.jpg",
+        "./catalog/product-5/photo-5.jpg",
+        "./catalog/product-5/photo-6.jpg"
+      ],
+      "gender": "female",
+      "color": "розовый",
+      "description": "",
+      "composition": ["текстиль"],
+      "country": "Китай"
+    },
+    {
+      "id": 6,
+      "name": "Кроссовки термо",
+      "type": "Горные",
+      "price": 5000,
+      "size": [39, 40, 41],
+      "photos": [
+        "./catalog/product-6/photo-1.jpg",
+        "./catalog/product-6/photo-2.jpg",
+        "./catalog/product-6/photo-3.jpg",
+        "./catalog/product-6/photo-4.jpg",
+        "./catalog/product-6/photo-5.jpg",
+        "./catalog/product-6/photo-6.jpg"
+      ],
+      "gender": "male",
+      "color": "коричневый",
+      "description": "",
+      "composition": [],
+      "country": ""
+    },
+    {
+      "id": 7,
+      "name": "UNITED NUDE",
+      "type": "Дизайнерские",
+      "price": 26000,
+      "size": [37, 36, 39, 40, 41],
+      "photos": [
+        "./catalog/product-7/photo-1.jpg",
+        "./catalog/product-7/photo-2.jpg",
+        "./catalog/product-7/photo-3.jpg",
+        "./catalog/product-7/photo-4.jpg",
+        "./catalog/product-7/photo-5.jpg",
+        "./catalog/product-7/photo-6.jpg"
+      ],
+      "gender": "female",
+      "color": "бежевый",
+      "description": "",
+      "composition": ["кожа натуральная"],
+      "country": "Китай"
+    }
+  ]
+}

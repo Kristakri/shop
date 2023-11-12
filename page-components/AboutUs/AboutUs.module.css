@@ -1,0 +1,72 @@
+.about {
+  background: var(--blue);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutBackgroundCircleBig,
+.aboutBackgroundCircleSmall {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.aboutBackgroundCircleBig {
+  height: 644px;
+  width: 644px;
+  top: -220px;
+  left: -336px;
+}
+
+.aboutBackgroundCircleSmall {
+  height: 297px;
+  width: 297px;
+  left: 253px;
+  top: -182px;
+}
+
+.aboutBackgroundCircleSmall::after {
+  content: "";
+  position: absolute;
+  bottom: 12%;
+  right: 12%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+.aboutGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  z-index: 1;
+}
+
+.aboutContent {
+  padding: 222px 0 158px 0;
+  display: grid;
+}
+
+.aboutAuthor {
+  font-size: 20px;
+  position: relative;
+  justify-self: end;
+}
+
+.aboutAuthor::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  width: 20px;
+  height: 3px;
+  background: var(--white);
+  transform: translateY(-50%);
+}
+
+.aboutBackgroundImg {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}

@@ -1,0 +1,68 @@
+.feedback {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 60px 15px;
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 60px;
+}
+
+.form {
+  border-radius: 4px;
+  background: var(--blue);
+  padding: 40px 20px;
+  color: var(--white);
+  text-align: center;
+}
+
+.form p {
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 100%;
+  background: var(--white);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.input::placeholder {
+  color: var(--gray);
+}
+
+.inputError {
+  box-shadow: 1px 1px 0 var(--primary), 1px -1px 0 var(--primary), -1px 1px 0 var(--primary), -1px -1px 0 var(--primary);
+}
+
+.form button {
+  width: 100%;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instagram a {
+  display: inline-block;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 160px);
+  gap: 15px;
+}
+
+.photos img:nth-child(2) {
+  grid-row: 2;
+}
+
+.photos img:nth-child(3) {
+  grid-column: 2 span;
+  grid-row: 2 span;
+}

@@ -1,0 +1,73 @@
+.ourTeam {
+  background: var(--blue);
+  color: var(--white);
+  padding: 60px 0;
+  position: relative;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.backgroundCircleBig,
+.backgroundCircleSmall {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.backgroundCircleRed {
+  width: 686px;
+  height: 686px;
+  top: -151px;
+  right: -145px;
+  border-radius: 50%;
+  background: var(--primary);
+  position: absolute;
+}
+
+.backgroundCircleBig {
+  height: 644px;
+  width: 644px;
+  top: -336px;
+  right: -220px;
+}
+
+.backgroundCircleSmall {
+  height: 297px;
+  width: 297px;
+  right: -182px;
+  top: 253px;
+}
+
+.ourTeamContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ourTeamTitle {
+  margin-bottom: 40px;
+}
+
+.ourTeamGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 20px;
+}
+
+.ourTeamPerson > p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.ourTeamImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  filter: grayscale(100%);
+  transition: var(--animation);
+}
+
+.ourTeamImg:hover {
+  filter: grayscale(0%);
+}

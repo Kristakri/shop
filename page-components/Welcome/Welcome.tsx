@@ -1,7 +1,7 @@
 import { WelcomeProps } from "./Welcome.props";
 import styles from "./Welcome.module.css";
 import cn from "classnames";
-import { H, Button } from "../../../components";
+import { H, Button } from "../../components";
 
 export const Welcome = ({className, children, ...props}: WelcomeProps):JSX.Element => {
   return (

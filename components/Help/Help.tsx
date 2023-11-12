@@ -4,9 +4,9 @@ import cn from "classnames";
 
 export const Help = ({className, children, ...props}: HelpProps):JSX.Element => {
   return (
-  <div className={styles.help}>
-    <div className={styles.helpText}>{children}</div>
+  <span className={styles.help}>
+    <span className={styles.helpText}>{children}</span>
     <button className={styles.helpButton}>?</button>
-  </div>
+  </span>
   );
 };

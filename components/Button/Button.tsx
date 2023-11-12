@@ -8,6 +8,8 @@ export const Button = ({className, appearance = 'primary', children, ...props}: 
       [styles.primary]: appearance == "primary",
       [styles.ghost]: appearance == "ghost",
       [styles.gray]: appearance == "gray",
-    })}>{children}</button>
+    })}
+    {...props}
+    >{children}</button>
   );
 };
